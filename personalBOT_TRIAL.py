@@ -11,6 +11,3 @@ api = REST(API_KEY, SECRET_KEY, base_url=BASE_URL)
 account = api.get_account()
 print("Account Status:", account.status)
 
-# Get latest quote for a stock (e.g. TSLA)
-quote = api.get_latest_trade("TSLA")
-print("Latest TSLA trade:", quote)
